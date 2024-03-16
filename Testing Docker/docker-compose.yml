@@ -1,0 +1,18 @@
+#services:
+#    mypythonapp:
+#        build: ./
+#        command: python3 ./sum.py
+#        container_name: mpa-sum
+#
+#
+version: '3.8'
+
+services:
+  python_app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    tty: true
+    stdin_open: true
+    volumes:
+      - ./sum.py:/sum/sum.py
