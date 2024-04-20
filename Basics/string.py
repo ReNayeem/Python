@@ -32,3 +32,19 @@ print(len(string1))
 array3= ["2", "1", "3", "a", "A", "B", "C", "b"]
 # ['1', '2', '3', 'A', 'B', 'C', 'a', 'b']
 print(sorted(array3))
+
+name = 'my name is nayeem'
+# 1
+print(name.find('y'))
+
+# 11
+print(name.find('nayeem'))
+
+# my name is Nayeem
+print(name.replace('nayeem', 'Nayeem'))
+
+# my name is nayeem
+print(name)
+
+# True
+print('nayeem' in name)

@@ -17,3 +17,15 @@ print(int(string1))
 string2 = "1.2"
 # 1.2
 print(float(string2))
+
+# 3.3333333333333335
+print(10 / number3)
+
+# 3
+print(10 // number3)
+
+# 30
+print(10 * number3)
+
+# 1000
+print(10 ** number3)
